@@ -1,26 +1,24 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /** text-align left makes all inner divs line up at left of screen */
+  text-align: left;
+  margin: 2em;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.roundedItem {
+  /* 10px border-radius makes div have rounded corners */
+  border-radius: 10px;
+  /* display inline-block makes individual divs wrap as you resize the window */
+  display: inline-block;
+  background-color: #aa2c34;
+  color: #ffffff;
+  font-size: calc(14px + 2vmin);
+  margin: 0.5em;
+  padding: 0.5em;
+  white-space: nowrap;
 }
 
 @keyframes App-logo-spin {
