@@ -4,6 +4,10 @@ This displays a clean looking "list" of divs. Each div contains a name. The div 
 
 When the page is resized, the divs wrap to the next row, if needed.
 
+Here's what it looks like right now!
+
+![view of div list](https://github.com/mdoery/react-list/blob/master/react-list-example.png "View of div list")
+
 ## About
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
