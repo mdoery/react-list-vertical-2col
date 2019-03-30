@@ -8,8 +8,9 @@ Let's try [flex-box layout](https://dev.to/drews256/ridiculously-easy-row-and-co
 
 ![2 column 50% width](https://github.com/mdoery/react-list-vertical-2col/blob/master/react-list-vertical-2col-example-50-percent.png "2 column 50% width")
 
-It's not really what I want, but it's interesting, so I'm going to commit that step right now.
+It's not really what I want, but it's interesting, so I'm going to commit (ef65aed) that step right now.
 
+Now I've added a YouTube video in an iframe. The left edge of the iframe start at 50% of the screen width, and it occupies a nice big chunk of the screen. I'm checking in the code which did that now.
 
 ## About
 

@@ -20,6 +20,7 @@ class App extends Component {
 			{rows}
 			</div>
 			<div class='column'>
+				<iframe width="800" height="450" src="https://www.youtube.com/embed/fwJmNPd6y6c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
 	);
