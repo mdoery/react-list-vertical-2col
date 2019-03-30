@@ -16,7 +16,11 @@ class App extends Component {
 	}
 	return (
 		<div className="App">
+			<div class='column column-right'>
 			{rows}
+			</div>
+			<div class='column'>
+			</div>
 		</div>
 	);
   }

@@ -16,3 +16,14 @@
     transform: rotate(360deg);
   }
 }
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.column-right {
+  width:50%;
+}
