@@ -1,34 +1,24 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import RoundedSpan from './RoundedSpan';
+
+const edmNames = ["Kid Cudi", "David Guetta", "Rhianna", "Skrillex", "Martin Garrix",
+"Avicii", "Zedd", "Diplo", "Calvin Harris", "Deadmau5", "Afrojack", "Daft Punk",
+"Porter Robinson", "DJ Snake", "Swedish House Mafia", "Axwell", "Tiësto"];
 
 class App extends Component {
   render() {
-    return (
-      /**
-       * I want the divs to wrap, as described in this Stack Overflow question:
-       * https://stackoverflow.com/questions/11517415/how-can-i-wrap-divs
-       */
-      <div className="App">
-        <span className="roundedItem">Kid Cudi</span>
-        <span className="roundedItem">David Guetta</span>
-        <span className="roundedItem">Rhianna</span>
-        <span className="roundedItem">Skrillex</span>
-        <span className="roundedItem">Martin Garrix</span>
-        <span className="roundedItem">Avicii</span>
-        <span className="roundedItem">Zedd</span>
-        <span className="roundedItem">Diplo</span>
-        <span className="roundedItem">Calvin Harris</span>
-        <span className="roundedItem">Deadmau5</span>
-        <span className="roundedItem">Afrojack</span>
-        <span className="roundedItem">Daft Punk</span>
-        <span className="roundedItem">Porter Robinson</span>
-        <span className="roundedItem">DJ Snake</span>
-        <span className="roundedItem">Swedish House Mafia</span>
-        <span className="roundedItem">Axwell</span>
-        <span className="roundedItem">Tiësto</span>
-      </div>
-    );
+	var count = edmNames.length;
+	var rows = [];
+	for (var i = 0; i < count; i++) {
+		rows.push(<RoundedSpan edmName={edmNames[i]}/>);
+	}
+	return (
+		<div className="App">
+			{rows}
+		</div>
+	);
   }
 }
 

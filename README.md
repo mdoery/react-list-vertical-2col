@@ -1,23 +1,20 @@
 ## A wrapping list of divs
 
-This displays a clean looking "list" of divs. Each div contains a name. The div has padding to create a little box around each name, a margin to separate it from the other divs, and stylish rounded borders.
+This project is based on [react-list](https://github.com/mdoery/react-list). In that project, a list of names is displayed vertically across the screen, wrapping to the next line if there's not enough room to display them all on one line.
 
-When the page is resized, the divs wrap to the next row, if needed.
+In this project, I'm going to take the same list, and display it vertically, with one name per row.
 
-Here's what it looks like right now!
-
-![view of div list](https://github.com/mdoery/react-list/blob/master/react-list-example.png "View of div list")
+In this first iteration, though, I'm refactoring the original project so that it takes a list of names, so I'm not copy-pasting line after line for each name. Also, I've introduced a new component, ``RoundedSpan``. I could wait to do this, since I don't really need it right now. But I think it makes the code easier to read.
 
 ## About
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 I installed node version 8.10 to run this.
 
 ```
 nvm install 8.10
 nvm use 8.10
-npx create-react-app my-app
+npm update
+npm start
 ```
 
 ## Available Scripts

@@ -1,0 +1,13 @@
+
+.roundedItem {
+    /* 10px border-radius makes div have rounded corners */
+    border-radius: 10px;
+    /* display inline-block makes individual divs wrap as you resize the window */
+    display: inline-block;
+    background-color: #aa2c34;
+    color: #ffffff;
+    font-size: calc(14px + 2vmin);
+    margin: 0.5em;
+    padding: 0.5em;
+    white-space: nowrap;
+  }
