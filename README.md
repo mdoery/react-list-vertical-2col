@@ -6,6 +6,16 @@ In this project, I'm going to take the same list, and display it vertically, wit
 
 In this first iteration, though, I'm refactoring the original project so that it takes a list of names, so I'm not copy-pasting line after line for each name. Also, I've introduced a new component, ``RoundedSpan``. I could wait to do this, since I don't really need it right now. But I think it makes the code easier to read.
 
+Here's the vertical list view. It's a bunch of spans which form rows due to html linebreaks (note: ``<br>`` must be written ``<br/>`` in JSX).
+
+![view of spans list](https://github.com/mdoery/react-list-vertical/blob/master/react-list-vertical-example.png "View of spans list")
+
+Also note the use of ``ReactFragment``. "[Fragments let you group a list of children without adding extra nodes to the DOM.]"(https://reactjs.org/docs/fragments.html) If you try to place html linebreaks next to each ``RoundedSpan`` element without using ``ReactFragment``, you get a syntax error, which contains a hint about using fragments:
+
+``
+Parsing error: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>?
+``
+
 ## About
 
 I installed node version 8.10 to run this.

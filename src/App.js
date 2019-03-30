@@ -12,7 +12,7 @@ class App extends Component {
 	var count = edmNames.length;
 	var rows = [];
 	for (var i = 0; i < count; i++) {
-		rows.push(<RoundedSpan edmName={edmNames[i]}/>);
+		rows.push(<React.Fragment><RoundedSpan edmName={edmNames[i]}/><br/></React.Fragment>);
 	}
 	return (
 		<div className="App">
