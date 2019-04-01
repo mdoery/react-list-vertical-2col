@@ -10,9 +10,11 @@ Let's try [flex-box layout](https://dev.to/drews256/ridiculously-easy-row-and-co
 
 It's not really what I want, but it's interesting, so I'm going to commit ([ef65aed](https://github.com/mdoery/react-list-vertical-2col/commit/ef65aed)) that step right now.
 
-Now I've added a YouTube video in an iframe. The left edge of the iframe start at 50% of the screen width, and it occupies a nice big chunk of the screen. I'm checking in the code which did that now ([8423051](https://github.com/mdoery/react-list-vertical-2col/commit/8423051)). Here's the view:
+Now I've added a YouTube video in an iframe. The left edge of the iframe starts at 50% of the screen width, and it occupies a nice big chunk of the screen. I'm checking in the code which did that now ([8423051](https://github.com/mdoery/react-list-vertical-2col/commit/8423051)). Here's the view:
 
 ![2 column 50% width using Flexbox](https://github.com/mdoery/react-list-vertical-2col/blob/master/react-list-vertical-2col-example-50-percent-flex.png "Flexbox two-column format")
+
+PS later I changed the iframe to start at 70% of the screen width, so it's easier to demo how that css class works. Also, I renamed the classes so it's more clear which column is left and which is right.
 
 ## About
 

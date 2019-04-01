@@ -21,7 +21,7 @@
   }
 }
 
-.column {
+.column-left {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
@@ -31,5 +31,6 @@
 }
 
 .column-right {
-  width:50%;
+  width:70%;
 }
+
